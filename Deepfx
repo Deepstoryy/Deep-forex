@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>موقع تسويقي</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        header {
+            background: #4CAF50;
+            color: white;
+            padding: 15px 20px;
+            text-align: center;
+        }
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+        .cta {
+            background: #4CAF50;
+            color: white;
+            border: none;
+            padding: 15px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 18px;
+            margin-top: 20px;
+        }
+        .cta:hover {
+            background: #45a049;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>مرحبًا بكم في موقعنا</h1>
+        <p>نحن نقدم أفضل الخدمات لجعل حياتك أسهل</p>
+    </header>
+    <section>
+        <h2>منتجاتنا وخدماتنا</h2>
+        <p>تصفح منتجاتنا المصممة لتلبية جميع احتياجاتك!</p>
+        <button class="cta">تواصل معنا الآن</button>
+    </section>
+    <footer>
+        &copy; 2024 جميع الحقوق محفوظة.
+    </footer>
+</body>
+</html>
